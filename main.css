@@ -1,15 +1,22 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
 a {
   text-decoration: none;
   color: white;
 }
-.boton1 {
+button {
   margin: 10px;
   background-color: blueviolet;
-  display: flex;
-  padding: auto;
+  padding: 12px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
 }
 .cabecera {
-  height: 40px;
+  height: 80px;
 }
 header {
   background-color: black;
@@ -19,10 +26,10 @@ header {
 }
 .portada {
   background-image: url("https://tech101.io/static/hero-cover-444e42e661c85954ce67511423a5d702.png");
-  padding: 150px;
+  padding: 0px 0px 0px 90px;
+  background-size: cover;
+  height: 60vh;
   color: white;
-  display: flex;
-  justify-content: flex-end;
 }
 .menu ul {
   background-color: black;
@@ -31,4 +38,24 @@ header {
   font-size: 15px;
   margin: 0%;
   padding: 0%;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+  font-size: 80px;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 10px 0px 50px 0px;
+  font-size: 35px;
+}
+
+.registro {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
 }
