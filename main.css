@@ -1,6 +1,7 @@
-body{
+body {
   padding: 0px;
   margin: 0px;
+  font-family: Helvetica, sans-serif;
 }
 
 a {
@@ -28,7 +29,7 @@ header {
   background-image: url("https://tech101.io/static/hero-cover-444e42e661c85954ce67511423a5d702.png");
   padding: 0px 0px 0px 90px;
   background-size: cover;
-  height: 60vh;
+  height: 100%;
   color: white;
 }
 .menu ul {
@@ -41,21 +42,19 @@ header {
 }
 
 h1 {
-  font-family: Helvetica, sans-serif;
-  font-weight: 600;
-  padding: 0px;
-  margin: 0px;
-  font-size: 80px;
+  font-weight: 600px;
+  padding: 30px 0;
+  margin: 0;
+  font-size: 120px;
 }
 
 p {
-  font-family: Helvetica, sans-serif;
   font-weight: lighter;
   padding: 10px 0px 50px 0px;
   font-size: 35px;
+  margin: 0;
 }
 
 .registro {
-  font-family: Helvetica, sans-serif;
   font-size: 18px;
 }
